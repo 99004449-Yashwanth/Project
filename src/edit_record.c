@@ -43,7 +43,7 @@ void edit_record(long unique_ID)
             fwrite(&list, sizeof(list), 1, ft);
     }
 
-    fflush(stdin);
+    //fflush(stdin);
 
     printf("\n\nEditing '%ld'\n\n", query);
 

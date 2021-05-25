@@ -35,11 +35,11 @@ const char *medicineType()
     printf("________________\n");
     printf("1 - Paracetmol\n2 - Dolo650\n3 - Vitamin-D\n4 - Cetirizine\n5 - Amoxicillin\n6 - Zincovita\n7 - Nil\n0 - Exit\n");
     printf("________________\n");
-    int i = 1;
+    // int i = 1;
     int y;
 
-    while (i != 0)
-    {
+    // while (i != 0)
+    // {
         printf("Medicine Code : ");
         scanf("%d", &x);
 
@@ -56,13 +56,13 @@ const char *medicineType()
 
             return m[x];
         }
-    }
+    // }
 
     if (x == 0)
     {
         printf("Exit...\n");
         return "Nil";
-        i = 0;
+        //i = 0;
     }
 
     if (x < 0 || x > 7)

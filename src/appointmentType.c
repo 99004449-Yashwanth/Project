@@ -38,7 +38,7 @@ const char *appointmentType()
     printf("________________\n");
     printf("1 - Diarrheal\n2 - Ear\n3 - Eyes\n4 - Dental\n5 - Skin\n6 - COVID\n7 - Nil\n0 - Exit\n");
     printf("________________\n");
-    int x, i = 1;
+    int x, i ;
 
     printf("Purpose Code : ");
     scanf("%d", &x);
@@ -58,7 +58,7 @@ const char *appointmentType()
     {
         printf("Exit...\n");
         return "Nil";
-        i = 0;
+        //i = 0;
     }
 
     if (x < 0 || x > 7)

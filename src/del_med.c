@@ -35,7 +35,7 @@ void del_med()
     char ch;
     int delete_line, temp = 1;
     printf("Enter file name : ");
-    scanf("%s", filename);            //Enter the name of the file
+    scanf("%s", &filename);            //Enter the name of the file
     pharmacy1 = fopen(filename, "r"); //opening the file in readmode
     ch = getc(pharmacy1);
     while (ch != EOF) //while loop runs till the end of the file

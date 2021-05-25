@@ -44,7 +44,7 @@ FILE *fp, *ft;
 
 void delete_record(int unique_ID)
 {
-    fflush(stdin);
+    //fflush(stdin);
 
     fp = fopen("contact.dll", "r");
 

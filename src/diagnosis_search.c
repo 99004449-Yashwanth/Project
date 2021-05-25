@@ -40,7 +40,7 @@ void diagnosis_search()
         printf("________________________\n");
         printf("Unique ID of the Patient : ");
 
-        fflush(stdin);
+        //fflush(stdin);
 
         scanf("%ld", &query);
 

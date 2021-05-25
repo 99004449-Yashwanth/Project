@@ -29,33 +29,11 @@
 #include "../inc/hms.h"
 
 
-// struct contact
-// {
-//     long long ph;
-//     long uID;
-//     int age;
-//     long long adhaar;
-//     int delete;
-
-//     char name[20], branch[30], diagnosis[50], medicine[100], appointment[100];
-
-// } list;
-
-// int bill;
-
-// long unique_ID = 0;
-// long long ph_num = 0;
-// char branchName[40] = " ";
-
-
-
-// FILE *fp, *ft;
-
 void add_record()
 {
     fp = fopen("contact.dll", "a");
 
-    fflush(stdin);
+    //fflush(stdin);
 
     printf("Name : ");
 

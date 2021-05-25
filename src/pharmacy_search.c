@@ -40,7 +40,7 @@ void pharmacy_search()
         printf("======================\n");
         printf("Unique ID of the Patient : ");
 
-        fflush(stdin);
+        //fflush(stdin);
 
         scanf("%ld", &query);
 

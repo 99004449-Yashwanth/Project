@@ -40,7 +40,7 @@ void search_record()
         printf("__________________________\n");
         printf("Unique ID of the Patient : ");
 
-        fflush(stdin);
+        //fflush(stdin);
 
         scanf("%ld", &query);
 
