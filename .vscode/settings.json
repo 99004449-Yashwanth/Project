@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "del_med.h": "c",
+        "delete_record.h": "c",
+        "search_record.h": "c",
+        "uniqueid.h": "c"
+    }
+}
