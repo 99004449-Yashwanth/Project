@@ -47,19 +47,19 @@ void edit_record(long unique_ID)
 
     printf("\n\nEditing '%ld'\n\n", query);
 
-    fflush(stdin);
+    //fflush(stdin);
 
     strcpy(list.appointment, appointmentType());
 
     printf("Appointment Updated : %s\n", list.appointment);
 
-    fflush(stdin);
+    //fflush(stdin);
 
     strcpy(list.diagnosis, diagnosisType());
 
     printf("Diagnosis Updated : %s\n", list.diagnosis);
 
-    fflush(stdin);
+    //fflush(stdin);
 
     strcpy(list.medicine, medicineType());
 

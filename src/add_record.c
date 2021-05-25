@@ -40,8 +40,10 @@ void add_record()
     scanf("%[^\n]", &list.name);
 
     if (stricmp(list.name, "") == 0 || stricmp(list.name, " ") == 0)
+    exit(1);
 
-        fflush(stdin);
+
+//fflush(stdin);
 
     list.uID = unique_ID;
     printf("Unique ID : %ld\n", list.uID);
